@@ -1,0 +1,682 @@
+{
+  "users": [
+    {
+      "id": "usr_1788215137649_1878bz",
+      "username": "streamer_test",
+      "displayName": "streamer_test",
+      "email": "streamer@test.com",
+      "passwordHash": "$2b$10$h6WfKTdsRdQlKvCLbJJwuuhCjZoadknbu4KPv/6kunA/NVNn7DvyC",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=streamer_test",
+      "overlayKey": "key_5bf3806059a6903b34183326152f82e9",
+      "createdAt": 1788215137650,
+      "accounts": {},
+      "config": {
+        "overlay": {
+          "alerts": {
+            "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3",
+            "soundVolume": 0.8,
+            "duration": 6,
+            "animation": "bounce",
+            "ttsEnabled": false,
+            "ttsVoice": "es-ES",
+            "followMessage": "{user} ¡Ahora te sigue!",
+            "subMessage": "{user} ¡Se ha suscrito al canal!",
+            "giftSubMessage": "{user} regaló {amount} suscripciones!",
+            "raidMessage": "{user} llegó con una raid de {viewers} personas!",
+            "tipMessage": "{user} envió una donación de ${amount}!",
+            "bannerImg": "",
+            "events": {
+              "follow": {
+                "enabled": true,
+                "messageTemplate": "{user} ¡Ahora te sigue!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3",
+                "soundVolume": 0.8,
+                "duration": 6,
+                "animation": "bounce",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#53FC18",
+                "glowColor": "#53FC18",
+                "fontSize": 24,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "sub": {
+                "enabled": true,
+                "messageTemplate": "{user} ¡Se ha suscrito al canal!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2019/2019-preview.mp3",
+                "soundVolume": 0.85,
+                "duration": 7,
+                "animation": "zoom",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#9146FF",
+                "glowColor": "#9146FF",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "gift": {
+                "enabled": true,
+                "messageTemplate": "{user} regaló {amount} suscripciones!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3",
+                "soundVolume": 0.9,
+                "duration": 7,
+                "animation": "slide",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#EC4899",
+                "glowColor": "#EC4899",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "raid": {
+                "enabled": true,
+                "messageTemplate": "{user} llegó con una raid de {amount} personas!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/1435/1435-preview.mp3",
+                "soundVolume": 0.9,
+                "duration": 8,
+                "animation": "flip",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#F59E0B",
+                "glowColor": "#F59E0B",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "tip": {
+                "enabled": true,
+                "messageTemplate": "{user} envió una donación de ${amount}!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/67ThDxtWS4Y92/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2017/2017-preview.mp3",
+                "soundVolume": 0.9,
+                "duration": 7,
+                "animation": "pulse",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#10B981",
+                "glowColor": "#10B981",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "cheer": {
+                "enabled": true,
+                "messageTemplate": "{user} envió {amount} bits!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/l41lT4n6ylgW2hh04/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2020/2020-preview.mp3",
+                "soundVolume": 0.85,
+                "duration": 6,
+                "animation": "bounce",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#06B6D4",
+                "glowColor": "#06B6D4",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              }
+            }
+          },
+          "chat": {
+            "theme": "clean-dark",
+            "fontSize": 18,
+            "showPlatformBadges": true,
+            "showUserBadges": true,
+            "fadeTime": 20,
+            "maxMessages": 30,
+            "hideCommands": true
+          },
+          "goals": {
+            "title": "Meta de Seguidores",
+            "current": 0,
+            "target": 100,
+            "type": "followers",
+            "barColor": "#53FC18"
+          },
+          "subathon": {
+            "enabled": true,
+            "weights": {
+              "followSeconds": 30,
+              "subSeconds": 300,
+              "giftSubSeconds": 300,
+              "bitsSecondsPer100": 60,
+              "tipSecondsPerDollar": 60,
+              "raidSecondsPerViewer": 5
+            },
+            "style": {
+              "theme": "neon",
+              "fontSize": 48,
+              "clockColor": "#53FC18",
+              "labelColor": "#ffffff",
+              "glowColor": "#53FC18",
+              "soundOnTimeAdded": true,
+              "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2019/2019-preview.mp3",
+              "title": "STREAM EXTENSIBLE"
+            },
+            "state": {
+              "active": false,
+              "paused": false,
+              "remainingSeconds": 0,
+              "initialSeconds": 7200,
+              "maxSeconds": 86400,
+              "lastUpdatedAt": 1788279549104,
+              "totalTimeAdded": 300
+            },
+            "logs": [
+              {
+                "id": "slog_1788226731200_2c8",
+                "timestamp": 1788226731200,
+                "user": "GamerLegendario",
+                "platform": "kick",
+                "type": "sub",
+                "secondsAdded": 300
+              }
+            ]
+          }
+        }
+      },
+      "commands": [
+        {
+          "id": "cmd-1",
+          "name": "!redes",
+          "response": "Sígueme en mis redes sociales: 📸 Instagram: instagram.com/tu_usuario | 🐦 Twitter/X: x.com/tu_usuario | 📺 YouTube: youtube.com/@tu_canal",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 5,
+          "useCount": 0,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        },
+        {
+          "id": "cmd-2",
+          "name": "!discord",
+          "response": "Únete a nuestra comunidad de Discord para jugar juntos y enterarte de cuando prendemos directo: https://discord.gg/ejemplo 🎮",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 5,
+          "useCount": 0,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        },
+        {
+          "id": "cmd-3",
+          "name": "!bot",
+          "response": "🤖 StreamBot activado en Twitch y Kick funcionando al 100%.",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 10,
+          "useCount": 0,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        },
+        {
+          "id": "cmd-4",
+          "name": "!so",
+          "response": "¡Vayan a darle un gran follow a {touser} en su canal! Pásense por https://twitch.tv/{touser} o https://kick.com/{touser} 💜💚",
+          "enabled": true,
+          "permission": "mod",
+          "cooldown": 3,
+          "useCount": 0,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        },
+        {
+          "id": "cmd-5",
+          "name": "!dado",
+          "response": "🎲 {user} tiró el dado y sacó un: {random:1-6}!",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 3,
+          "useCount": 0,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        },
+        {
+          "id": "cmd-6",
+          "name": "!ruleta",
+          "response": "🔫 {user} juega a la ruleta rusa... {random:¡CLIC! Te salvaste por los pelos.,¡PUM! 💥 Te has disparado en el pie.,¡CLIC! La bala no salió.,¡PUM! 💀 Has muerto en el intento.}",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 5,
+          "useCount": 0,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        }
+      ],
+      "timers": [
+        {
+          "id": "timer-1",
+          "name": "Recordatorio Redes Sociales",
+          "messages": [
+            "🔔 ¡Recuerda seguir el canal y activar las notificaciones para no perderte ningún directo!",
+            "💬 No olvides unirte a nuestro Discord con !discord para enterarte de avisos y eventos.",
+            "🌟 Apoya el directo dejando tu follow o suscripción para mejorar la calidad del stream."
+          ],
+          "intervalMinutes": 15,
+          "chatLinesThreshold": 5,
+          "enabled": false,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        }
+      ],
+      "stats": {
+        "twitchMessagesCount": 0,
+        "kickMessagesCount": 0,
+        "commandsExecutedCount": 0,
+        "alertsTriggeredCount": 1,
+        "startedAt": 1788215137650
+      },
+      "mediaGallery": [],
+      "role": "admin"
+    },
+    {
+      "id": "usr_1788216089283_a7gpsk",
+      "username": "tupac-33",
+      "displayName": "tupac-33",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=tupac-33",
+      "overlayKey": "key_cf4e15e044b422c715ab98ccdc5eb619",
+      "createdAt": 1788216089283,
+      "accounts": {
+        "twitch": {
+          "platform": "twitch",
+          "channel": "tupac_33",
+          "username": "Tupac_33",
+          "token": "zf0sslyqulmtxkrsv4imuilpvlvrgr",
+          "connected": true,
+          "botEnabled": true,
+          "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/4631297d-48d9-44e5-8f1d-ae133fc1aa1a-profile_image-300x300.png"
+        },
+        "kick": {
+          "platform": "kick",
+          "channel": "tupac_33",
+          "username": "tupac_33",
+          "token": "YTLKYTNKMDKTYWVHZS0ZOWMXLTLJYTITNZAWMJCZMTEXMJU1",
+          "chatroomId": 5531866,
+          "channelId": 5561531,
+          "connected": true,
+          "botEnabled": true,
+          "avatar": "https://files.kick.com/images/user/5653540/profile_image/conversion/f5b2fe01-b869-4f0a-8f8e-e6a2faee4972-medium.webp"
+        }
+      },
+      "config": {
+        "overlay": {
+          "alerts": {
+            "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3",
+            "soundVolume": 0.8,
+            "duration": 6,
+            "animation": "bounce",
+            "ttsEnabled": false,
+            "ttsVoice": "es-ES",
+            "followMessage": "{user} ¡Ahora te sigue!",
+            "subMessage": "{user} ¡Se ha suscrito al canal!",
+            "giftSubMessage": "{user} regaló {amount} suscripciones!",
+            "raidMessage": "{user} llegó con una raid de {viewers} personas!",
+            "tipMessage": "{user} envió una donación de ${amount}!",
+            "bannerImg": "",
+            "events": {
+              "follow": {
+                "enabled": true,
+                "messageTemplate": "{user} ¡Ahora te sigue!",
+                "mediaType": "video",
+                "mediaUrl": "/uploads/New_Follower_1788224891841_9dxep.webm",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3",
+                "soundVolume": 0.55,
+                "duration": 6,
+                "animation": "none",
+                "layout": "overlay",
+                "cardStyle": "transparent",
+                "showBorder": false,
+                "showGlow": false,
+                "showBadge": false,
+                "showConfetti": false,
+                "textColor": "#ffffff",
+                "titleColor": "#1845fb",
+                "glowColor": "#53FC18",
+                "fontSize": 12,
+                "mediaSize": 410,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "sub": {
+                "enabled": true,
+                "messageTemplate": "{user} ¡Se ha suscrito al canal!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2019/2019-preview.mp3",
+                "soundVolume": 0.85,
+                "duration": 7,
+                "animation": "zoom",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#9146FF",
+                "glowColor": "#9146FF",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "gift": {
+                "enabled": true,
+                "messageTemplate": "{user} regaló {amount} suscripciones!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3",
+                "soundVolume": 0.9,
+                "duration": 7,
+                "animation": "slide",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#EC4899",
+                "glowColor": "#EC4899",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "raid": {
+                "enabled": true,
+                "messageTemplate": "{user} llegó con una raid de {amount} personas!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/1435/1435-preview.mp3",
+                "soundVolume": 0.9,
+                "duration": 8,
+                "animation": "flip",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#F59E0B",
+                "glowColor": "#F59E0B",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "tip": {
+                "enabled": true,
+                "messageTemplate": "{user} envió una donación de ${amount}!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/67ThDxtWS4Y92/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2017/2017-preview.mp3",
+                "soundVolume": 0.9,
+                "duration": 7,
+                "animation": "pulse",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#10B981",
+                "glowColor": "#10B981",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              },
+              "cheer": {
+                "enabled": true,
+                "messageTemplate": "{user} envió {amount} bits!",
+                "mediaType": "gif",
+                "mediaUrl": "https://media.giphy.com/media/l41lT4n6ylgW2hh04/giphy.gif",
+                "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2020/2020-preview.mp3",
+                "soundVolume": 0.85,
+                "duration": 6,
+                "animation": "bounce",
+                "layout": "top-bottom",
+                "textColor": "#ffffff",
+                "titleColor": "#06B6D4",
+                "glowColor": "#06B6D4",
+                "fontSize": 26,
+                "ttsEnabled": false,
+                "ttsVoice": "es-ES",
+                "ttsVolume": 0.8
+              }
+            }
+          },
+          "chat": {
+            "theme": "clean-dark",
+            "fontSize": 23,
+            "showPlatformBadges": true,
+            "showUserBadges": true,
+            "fadeTime": 20,
+            "maxMessages": 30,
+            "hideCommands": true
+          },
+          "goals": {
+            "title": "Meta de Seguidores",
+            "current": 29,
+            "target": 100,
+            "type": "followers",
+            "barColor": "#53FC18"
+          },
+          "subathon": {
+            "enabled": true,
+            "weights": {
+              "followSeconds": 2,
+              "subSeconds": 9,
+              "giftSubSeconds": 8,
+              "bitsSecondsPer100": 6,
+              "tipSecondsPerDollar": 60,
+              "raidSecondsPerViewer": 1
+            },
+            "style": {
+              "theme": "neon",
+              "fontSize": 48,
+              "clockColor": "#53FC18",
+              "labelColor": "#ffffff",
+              "glowColor": "#53FC18",
+              "soundOnTimeAdded": false,
+              "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2019/2019-preview.mp3",
+              "title": "STREAM EXTENSIBLE"
+            },
+            "state": {
+              "active": false,
+              "paused": false,
+              "remainingSeconds": 7200,
+              "initialSeconds": 7200,
+              "maxSeconds": 86400,
+              "lastUpdatedAt": 1788274274702,
+              "totalTimeAdded": 0
+            },
+            "logs": []
+          },
+          "aiBot": {
+            "enabled": true,
+            "isAfk": true,
+            "triggerCommand": "!ia",
+            "provider": "gemini",
+            "apiKey": "AQ.Ab8RN6LaNnIBKqVlHsTLVl6oIUfkkJWKSHP-ZWLl2VEkUkf9QQ",
+            "model": "gemini-1.5-flash",
+            "systemPrompt": "Eres un robot de stream sarcástico, burlón y muy divertido. Responde SIEMPRE DIRECTAMENTE a lo que te dicen o preguntan en el chat con comentarios cómicos, descansando al espectador o bromeando con humor de stream latinoamericano/español. Si te dicen \"hola cómo estás\" responde por ejemplo: \"Hola @usuario, ¿y a vos qué te interesa si estoy bien? Igual sí, ando de diez con los circuitos a pleno... ¿y vos qué querés?\". Si preguntan tonterías, trátalos de mancos/noobs con humor. Respuestas cortas (máximo 2 oraciones) y muy graciosas.",
+            "maxTokens": 100,
+            "cooldownSeconds": 8,
+            "permission": "everyone",
+            "platforms": [
+              "twitch",
+              "kick"
+            ],
+            "tts": {
+              "enabled": true,
+              "voice": "es-ES",
+              "volume": 0.9,
+              "rate": 1,
+              "pitch": 1.1
+            },
+            "avatar": {
+              "theme": "mech-warrior",
+              "primaryColor": "#53FC18",
+              "secondaryColor": "#9146FF",
+              "bodyColor": "#0f172a",
+              "robotName": "RoboStream",
+              "showSpeechBubble": true,
+              "bubbleStyle": "cyber",
+              "bubbleBgColor": "rgba(2, 6, 23, 0.92)",
+              "bubbleTextColor": "#f8fafc",
+              "bubbleDuration": 8,
+              "scale": 1,
+              "position": "center",
+              "showGlow": false,
+              "showEnergyRings": false,
+              "showAntenna": true,
+              "showStatusPill": true,
+              "showTriggerBadge": true,
+              "promptPreset": "toxic_gamer"
+            },
+            "replyInChat": false
+          }
+        }
+      },
+      "commands": [
+        {
+          "id": "cmd-1",
+          "name": "!redes",
+          "response": "Sígueme en mis redes sociales: 📸 Instagram: instagram.com/tu_usuario | 🐦 Twitter/X: x.com/tu_usuario | 📺 YouTube: youtube.com/@tu_canal",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 5,
+          "useCount": 25,
+          "platforms": [
+            "twitch",
+            "kick"
+          ],
+          "lastUsed": 1788280237954
+        },
+        {
+          "id": "cmd-2",
+          "name": "!discord",
+          "response": "Únete a nuestra comunidad de Discord para jugar juntos y enterarte de cuando prendemos directo: https://discord.gg/ejemplo 🎮",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 5,
+          "useCount": 1,
+          "platforms": [
+            "twitch",
+            "kick"
+          ],
+          "lastUsed": 1788218567828
+        },
+        {
+          "id": "cmd-3",
+          "name": "!bot",
+          "response": "🤖 StreamBot activado en Twitch y Kick funcionando al 100%.",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 10,
+          "useCount": 1,
+          "platforms": [
+            "twitch",
+            "kick"
+          ],
+          "lastUsed": 1788219189160
+        },
+        {
+          "id": "cmd-4",
+          "name": "!so",
+          "response": "¡Vayan a darle un gran follow a {touser} en su canal! Pásense por https://twitch.tv/{touser} o https://kick.com/{touser} 💜💚",
+          "enabled": true,
+          "permission": "mod",
+          "cooldown": 3,
+          "useCount": 0,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        },
+        {
+          "id": "cmd-5",
+          "name": "!dado",
+          "response": "🎲 {user} tiró el dado y sacó un: {random:1-6}!",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 3,
+          "useCount": 5,
+          "platforms": [
+            "twitch",
+            "kick"
+          ],
+          "lastUsed": 1788278523819
+        },
+        {
+          "id": "cmd-6",
+          "name": "!ruleta",
+          "response": "🔫 {user} juega a la ruleta rusa... {random:¡CLIC! Te salvaste por los pelos.,¡PUM! 💥 Te has disparado en el pie.,¡CLIC! La bala no salió.,¡PUM! 💀 Has muerto en el intento.}",
+          "enabled": true,
+          "permission": "everyone",
+          "cooldown": 5,
+          "useCount": 4,
+          "platforms": [
+            "twitch",
+            "kick"
+          ],
+          "lastUsed": 1788274612743
+        }
+      ],
+      "timers": [
+        {
+          "id": "timer-1",
+          "name": "Recordatorio Redes Sociales",
+          "messages": [
+            "🔔 ¡Recuerda seguir el canal y activar las notificaciones para no perderte ningún directo!",
+            "💬 No olvides unirte a nuestro Discord con !discord para enterarte de avisos y eventos.",
+            "🌟 Apoya el directo dejando tu follow o suscripción para mejorar la calidad del stream."
+          ],
+          "intervalMinutes": 15,
+          "chatLinesThreshold": 5,
+          "enabled": false,
+          "platforms": [
+            "twitch",
+            "kick"
+          ]
+        }
+      ],
+      "stats": {
+        "twitchMessagesCount": 49,
+        "kickMessagesCount": 44,
+        "commandsExecutedCount": 36,
+        "alertsTriggeredCount": 132,
+        "startedAt": 1788216089283
+      },
+      "mediaGallery": [
+        {
+          "id": "med_1788224891848_fbdwd",
+          "name": "New Follower.webm",
+          "type": "video",
+          "url": "/uploads/New_Follower_1788224891841_9dxep.webm",
+          "size": 753352,
+          "createdAt": 1788224891848
+        }
+      ],
+      "role": "admin"
+    }
+  ]
+}

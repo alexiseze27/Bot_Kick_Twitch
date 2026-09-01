@@ -1,0 +1,18 @@
+{
+  "twitch": {
+    "enabled": true,
+    "botUsername": "",
+    "botToken": "",
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "kick": {
+    "enabled": true,
+    "botUsername": "",
+    "botToken": "",
+    "clientId": "",
+    "clientSecret": "",
+    "pusherKey": "32cbd69e4b950bf97679",
+    "pusherCluster": "us2"
+  }
+}

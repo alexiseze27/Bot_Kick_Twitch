@@ -1,0 +1,16 @@
+{
+  "name": "botrix-clone-bot",
+  "version": "1.0.0",
+  "description": "Bot Multiplataforma para Twitch y Kick con Overlays para OBS y Dashboard Web",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "start": "npm --prefix backend run start",
+    "install:all": "npm.cmd install && npm.cmd --prefix backend install && npm.cmd --prefix frontend install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "config": {
+    "twitch": {
+      "enabled": false,
+      "channel": "",
+      "botUsername": "",
+      "oauthToken": ""
+    },
+    "kick": {
+      "enabled": false,
+      "channel": "",
+      "botUsername": "",
+      "botToken": ""
+    },
+    "overlay": {
+      "alerts": {
+        "soundUrl": "https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3",
+        "soundVolume": 0.8,
+        "duration": 6,
+        "animation": "bounce",
+        "ttsEnabled": false,
+        "ttsVoice": "es-ES-Standard-A",
+        "followMessage": "{user} ¡Ahora te sigue!",
+        "subMessage": "{user} ¡Se ha suscrito al canal!",
+        "giftSubMessage": "{user} regaló {amount} suscripciones!",
+        "raidMessage": "{user} llegó con una raid de {viewers} personas!",
+        "tipMessage": "{user} envió una donación de ${amount}!",
+        "bannerImg": ""
+      },
+      "chat": {
+        "theme": "clean-dark",
+        "fontSize": 18,
+        "showPlatformBadges": true,
+        "showUserBadges": true,
+        "fadeTime": 20,
+        "maxMessages": 30,
+        "hideCommands": true
+      },
+      "goals": {
+        "title": "Meta de Seguidores",
+        "current": 0,
+        "target": 100,
+        "type": "followers",
+        "barColor": "#53FC18"
+      }
+    }
+  },
+  "commands": [
+    {
+      "id": "cmd-1",
+      "name": "!redes",
+      "response": "Sígueme en mis redes sociales: 📸 Instagram: instagram.com/tu_usuario | 🐦 Twitter/X: x.com/tu_usuario | 📺 YouTube: youtube.com/@tu_canal",
+      "enabled": true,
+      "permission": "everyone",
+      "cooldown": 5,
+      "useCount": 0,
+      "platforms": [
+        "twitch",
+        "kick"
+      ]
+    },
+    {
+      "id": "cmd-2",
+      "name": "!discord",
+      "response": "Únete a nuestra comunidad de Discord para jugar juntos y enterarte de cuando prendemos directo: https://discord.gg/ejemplo 🎮",
+      "enabled": true,
+      "permission": "everyone",
+      "cooldown": 5,
+      "useCount": 0,
+      "platforms": [
+        "twitch",
+        "kick"
+      ]
+    },
+    {
+      "id": "cmd-3",
+      "name": "!bot",
+      "response": "🤖 Botrix-Clone activado en Twitch y Kick funcionando al 100%. Creado para dominar ambas plataformas.",
+      "enabled": true,
+      "permission": "everyone",
+      "cooldown": 10,
+      "useCount": 0,
+      "platforms": [
+        "twitch",
+        "kick"
+      ]
+    },
+    {
+      "id": "cmd-4",
+      "name": "!so",
+      "response": "¡Vayan a darle un gran follow a {touser} en su canal! Pásense por https://twitch.tv/{touser} o https://kick.com/{touser} 💜💚",
+      "enabled": true,
+      "permission": "mod",
+      "cooldown": 3,
+      "useCount": 0,
+      "platforms": [
+        "twitch",
+        "kick"
+      ]
+    },
+    {
+      "id": "cmd-5",
+      "name": "!dado",
+      "response": "🎲 {user} tiró el dado y sacó un: {random:1-6}!",
+      "enabled": true,
+      "permission": "everyone",
+      "cooldown": 3,
+      "useCount": 0,
+      "platforms": [
+        "twitch",
+        "kick"
+      ]
+    },
+    {
+      "id": "cmd-6",
+      "name": "!ruleta",
+      "response": "🔫 {user} juega a la ruleta rusa... {random:¡CLIC! Te salvaste por los pelos.,¡PUM! 💥 Te has disparado en el pie.,¡CLIC! La bala no salió.,¡PUM! 💀 Has muerto en el intento.}",
+      "enabled": true,
+      "permission": "everyone",
+      "cooldown": 5,
+      "useCount": 0,
+      "platforms": [
+        "twitch",
+        "kick"
+      ]
+    }
+  ],
+  "timers": [
+    {
+      "id": "timer-1",
+      "name": "Recordatorio Redes Sociales",
+      "messages": [
+        "🔔 ¡Recuerda seguir el canal y activar las notificaciones para no perderte ningún directo!",
+        "💬 No olvides unirte a nuestro Discord con !discord para enterarte de avisos y eventos.",
+        "🌟 Apoya el directo dejando tu follow o suscripción para mejorar la calidad del stream."
+      ],
+      "intervalMinutes": 15,
+      "chatLinesThreshold": 5,
+      "enabled": false,
+      "platforms": [
+        "twitch",
+        "kick"
+      ]
+    }
+  ],
+  "stats": {
+    "twitchMessagesCount": 0,
+    "kickMessagesCount": 0,
+    "commandsExecutedCount": 0,
+    "alertsTriggeredCount": 1,
+    "startedAt": 1788212944116
+  }
+}
